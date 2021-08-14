@@ -1,0 +1,720 @@
+.container {
+    width: 1920px;
+    height: auto;
+    margin: 0 auto;
+
+}
+header nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+header nav ul li{
+
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+
+}
+.alltext{
+    margin-left: 450px;
+
+}
+.tepa3tarasn img{
+    width: 30px;
+    height: 30px;
+margin-top: 20px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+header nav ul li a{
+
+    color: black;
+}
+
+.dropbtn {color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 450px;
+    flex-direction: row;}
+.dropdown-content {
+    display: none;
+    position: absolute;
+background-color: #f2f2f2;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+.dropdown-content a:hover {background-color: #f2f2f2}
+.dropdown:hover .dropdown-content {
+    display: block;}
+.dropdown:hover .dropbtn {
+    background-color: #f2f2f2;}
+.dropdown-content a{
+    font-family: "Adobe Garamond Pro", sans-serif;
+
+}
+
+
+
+.hero-image {
+    background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4LweW?ver=0e45&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=223&s=1982&d=743&aim=true");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: start;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: "Source Sans Pro",sans-serif;
+}
+.sariq{
+
+padding: 10px;
+    background-color: #fff000;
+    font-size: 25px;
+border: none;
+font-family: "Source Sans Pro",sans-serif;
+
+
+}
+
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: ' \003E';
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+    text-decoration: underline;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+    text-decoration: underline;
+}
+
+
+
+
+
+.button1 {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    color: #100909;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button1 span:after {
+    content: ' \003E';
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button1:hover span {
+    padding-right: 25px;
+    text-decoration: underline;
+}
+
+.button1:hover span:after {
+    opacity: 1;
+    right: 0;
+    text-decoration: underline;
+}
+
+.qator2-1 a{
+    color: #000000;
+    text-decoration: none;
+
+}
+
+
+
+.qator2-01{
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+
+}
+.qator2-1 a:hover{
+    text-decoration: underline;
+
+}
+
+.qator2-1 {
+    padding: 70px;
+    font-size: 25px;
+    font-family: "Source Sans Pro", sans-serif;
+display: flex;
+    flex-direction: row;
+
+
+}
+
+
+.qator2-02{
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.qator2-03{
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.qator2-04{
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+
+}
+.qator2-05{
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+
+}
+.qator2-06{
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.h1card3-1{
+    font-family: "Source Sans Pro",sans-serif;
+
+
+}
+
+.buttoncard3-1 {
+    display: inline-block;
+    background-color: #ffffff;
+    text-align: start;
+    border: none;
+    color: #0767B4;
+
+    font-size: 28px;
+
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.buttoncard3-1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.buttoncard3-1 span:after {
+    content: ' \003E';
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.buttoncard3-1:hover span {
+    padding-right: 25px;
+    text-decoration: underline;
+}
+
+.buttoncard3-1:hover span:after {
+    opacity: 1;
+    right: 0;
+    text-decoration: underline;
+}
+
+.pcard3-1{
+    font-size: 25px;
+
+}
+
+
+
+.buttoncard3-01 {
+    display: inline-block;
+background-color: #ffffff;
+    text-align: start;
+   margin-top: 20px;
+    border: none;
+    color: #0767B4;
+
+    font-size: 28px;
+
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.buttoncard3-01 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.buttoncard3-01 span:after {
+    content: ' \003E';
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.buttoncard3-01:hover span {
+    padding-right: 25px;
+    text-decoration: underline;
+}
+
+.buttoncard3-01:hover span:after {
+    opacity: 1;
+    right: 0;
+    text-decoration: underline;
+}
+
+
+.siction3 img{
+    width: 450px;
+    height: 230px;
+
+
+}
+.card3-1{
+margin-left: 40px;
+}
+
+.siction3{
+
+    display: flex;
+    flex-direction: row;
+}
+.siction3 button{
+    font-family: "Source Sans Pro",sans-serif;
+
+
+}
+
+
+
+.hero-image1 {
+    background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4OUXd?ver=fcb0&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=0&s=1898&d=712&aim=true");
+    background-color: #cccccc;
+    height: 600px;
+    width: 1920px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 60px;
+}
+
+.hero-text1 {
+
+    text-align: start;
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+
+.button123 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+    color: #050303;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+
+.button123 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button123 span:after {
+    content: ' \003E';
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button123:hover span {
+    padding-right: 25px;
+    text-decoration: underline;
+}
+
+.button123:hover span:after {
+    opacity: 1;
+    right: 0;
+    text-decoration: underline;
+}
+
+
+
+
+
+.button12 {
+    display: inline-block;
+    border-radius: 4px;
+background-color: #181818;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button12 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button12 span:after {
+    content: ' \003E';
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button12:hover span {
+    padding-right: 25px;
+    text-decoration: underline;
+}
+
+.button12:hover span:after {
+    opacity: 1;
+    right: 0;
+    text-decoration: underline;
+}
+.qator4text01{
+    font-size: 60px;
+    font-family: Gadugi,sans-serif;
+    margin-top: 70px;
+height: 100px;
+}
+
+
+.buttoncard33-1 {
+    display: inline-block;
+
+    text-align: start;
+    background-color: #e6e6e6;
+    border: none;
+    color: #000000;
+
+    font-size: 18px;
+
+
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.buttoncard33-1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.buttoncard33-1 span:after {
+    content: ' \003E';
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.buttoncard33-1:hover span {
+    padding-right: 25px;
+    text-decoration: underline;
+}
+
+.buttoncard33-1:hover span:after {
+    opacity: 1;
+    right: 0;
+    text-decoration: underline;
+}
+
+.qator601{
+    text-align: center;
+    height: 200px;
+    background-color: #e6e6e6;
+padding: 10px;
+margin-top: 30px;
+
+}
+.qator6h1{
+    margin-top: 50px;
+font-family: Cambria, sans-serif;
+
+
+}
+
+.qator6p{
+    font-size: 20px;
+font-family: Dubai, sans-serif;
+}
+
+.hero-image123 {
+    background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWGThk?ver=0408&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=0&s=1898&d=712&aim=true");
+    background-color: #cccccc;
+    height: 600px;
+    width: 1920px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 60px;
+}
+
+
+
+.button122 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.0);
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button122 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button122 span:after {
+    content: ' \003E';
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button122:hover span {
+    padding-right: 25px;
+    text-decoration: underline;
+}
+
+.button122:hover span:after {
+    opacity: 1;
+    right: 0;
+    text-decoration: underline;
+}
+.qator7 img {
+    width: 30px;
+    height: 30px;
+margin-left: 20px;
+    margin-top: 90px;
+
+
+}
+.qator7{
+    display: flex;
+    flex-direction: row;
+text-align: start;
+ height: 200px;
+}
+.qator7 h1{
+    text-align: start;
+margin-top: 80px;
+    font-family: Dubai,sans-serif;
+}
+
+
+.siction7{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+width: 1920px;
+
+}
+.siction7 card{
+
+    width: 320px;
+    height: 600px;
+    background-color: #f2f2f2;
+padding: 40px;
+
+
+}
+.qator701{
+    width: auto;
+    background-color: #f2f2f2;
+
+
+
+}
+
+.siction7 ul li a:link {
+    text-decoration: none;
+}
+
+.siction7 ul li a:visited {
+    text-decoration: none;
+}
+
+.siction7 ul li a:hover {
+    text-decoration: underline;
+}
+
+.siction7 ul li a:active {
+    text-decoration: underline;
+}
+
+
+.siction7 ul li {
+
+    color: black;
+font-size: 20px;
+font-family: Calibri,sans-serif;
+left: 0;
+
+
+    padding: 14px 25px;
+    text-align: start;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.siction7 ul li a{
+    color: black;
+text-align: start;
+
+}
+.siction7li1 a{
+    font-size: 30px;
+display: flex;
+flex-direction: row;
+    width: auto;
+left: 0;
+    margin-left: 1px;
+
+
+}
+
